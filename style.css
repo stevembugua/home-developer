@@ -1,0 +1,1570 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2d2e32;
+    overflow-x: hidden;
+
+}
+nav{
+    background-color: #2d2e32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    
+    
+}
+nav>h1{
+    flex-grow: 1;
+}
+strong{
+    color: #e4e4e4;
+}
+h1{
+    color: #9d9d9e;
+}
+nav>ul{
+    display: flex;
+    flex-grow: 1;
+    gap: 4rem;
+    list-style-type: none;
+}
+nav>ul>li{
+    color: #e4e4e4;
+}
+nav>ul>li:hover{
+    color: #64f4ab;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.icons:hover{
+    cursor: pointer;
+    
+}
+
+.icons>p{
+    color: #9d9d9e;
+    cursor: pointer;
+}
+.mail{
+    background-color: #333438;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+.mail:hover{
+    background-color: #64f4ab;
+}
+
+.container{
+    display: flex;
+    background-color: #2d2e32;
+    width: 100%;
+    height: 100%;
+}
+.hero{
+    background-color: #2d2e32;
+    width: 50%;
+    padding: 2rem;
+
+}
+.button{
+    background-color: #64f4ab;
+    font-size: 1rem;
+    padding: .7rem;
+    border: none;
+    margin-left: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+.hero>h2{
+    font-size: 3rem;
+    margin-left: 11rem;
+    color: #e4e4e4;
+}
+.hero>p{
+    margin-left: 11rem;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    width: 23rem;
+    margin-bottom: 5rem;
+    color: #9d9d9e;
+}
+.hero>a{
+    margin-left: 11rem;
+    color: #64f4ab;
+    
+    
+}
+.hero>a:hover{
+    color: aliceblue;
+}
+.numbers{
+    background-color: #2d2e32;
+    display: flex;
+    width: 27rem;
+    margin-left: 4rem;
+    margin-top: 12rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.numbers>h4{
+    color: #e4e4e4;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;  
+}
+.numbers>p{
+    color: #9d9d9e;
+    font-size: .9rem;
+}
+.big{
+    display: flex;
+}
+.card{
+    
+    background-image: repeating-linear-gradient(to top left,#28292d 15%,#29282d 1%,#292a2e 30%);
+    margin: 0rem;
+    padding: 5rem;
+    border-radius: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26rem;
+    width: 26rem;
+    position: relative;
+    left: 9rem;
+    bottom: 1rem;
+}
+.card2{
+    background-image: radial-gradient(black,#3e3f42 );
+    margin: 0rem;
+    padding: 5rem;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    right: 33rem;
+    top: 21rem;
+    
+}
+.picture{
+    display: flex;
+    position: relative;
+    right: 40rem;
+}
+.java{
+    background-color:#25262a;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6rem;
+    position: absolute;
+    top: 28rem;
+    left: 28rem;
+}
+
+.python{
+    background-color: #25262a;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    position: absolute;
+    top: 10rem;
+    left: 30rem;
+}
+#meta{
+    background-color:#25262a;
+    height: 7rem;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4rem;
+    position: absolute;
+    top: 25rem;
+    right: 29rem;
+}
+.dot{
+    color: #64f4ab;
+    font-size: 6rem;
+    position: absolute;
+    top: 20rem;
+    left: 37rem;
+}
+.dot2{
+    background-color: #25262a;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1.5rem;
+    position: absolute;
+    left: 34rem;
+    bottom: 39rem;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .parent{
+        height: 100vh;
+        width: 100vw;
+        background-color: #2d2e32;
+        overflow-x: hidden;
+    
+    }
+    nav{
+        background-color: #2d2e32;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .7rem 
+        
+    }
+    nav>h1{
+        flex-grow: 1;
+    }
+    strong{
+        color: #e4e4e4;
+        font-size: medium;
+    }
+    h1{
+        color: #9d9d9e;
+        font-size: medium;
+        margin-right: 7rem;
+
+    }
+    nav>ul{
+        display: flex;
+        gap: .5rem;
+        list-style-type: none;
+        display: none;
+    }
+    nav>ul>li{
+        color: #e4e4e4;
+    }
+    nav>ul>li:hover{
+        color: #64f4ab;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    
+    
+    .icons>p{
+        color: #9d9d9e;
+        cursor: pointer;
+    }
+    .mail{
+        background-color: #333438;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+    }
+    .container{
+        display: block;
+        background-color: #2d2e32;
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    .hero{
+        background-color: #2d2e32;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        
+    
+    }
+     .button {
+        background-color: #64f4ab;
+        font-size: 1rem;
+        padding: .5rem;
+        width: 40%;
+        margin-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border-radius: .2rem;
+    }
+    .hero>h2{
+        font-size: 2rem;
+        margin-left: 11rem;
+        color: #e4e4e4;
+        width: 18rem;
+        
+    }
+    .hero>p{
+
+        margin-left: 8rem;
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        width: 23rem;
+        margin-bottom: 5rem;
+        color: #9d9d9e;
+        text-align: center;
+    }
+    .hero>a{
+        margin-left:6rem;
+        color: #64f4ab;
+        
+        
+    }
+    .numbers{
+        background-color: #2d2e32;
+        display: flex;
+        width: 27rem;
+        margin-left: 7rem;
+        margin-top: 11rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    .numbers>h4{
+        color: #e4e4e4;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;  
+    }
+    .numbers>p{
+        color: #9d9d9e;
+        font-size: .8rem;
+    }
+    .card{
+        
+        background-image: repeating-linear-gradient(to top left,#28292d 15%,#29282d 1%,#292a2e 30%);
+        border-radius: 30rem;
+        height: 20rem;
+        width: 20rem;
+        position: relative;
+        left: 3rem;
+        top: 3rem;
+        display: none;
+    }
+    .card2{
+        background-image: radial-gradient(black,#3e3f42 );
+        border-radius: 7rem;
+        height: 4rem;
+        width: 4rem;
+        right: 22rem;
+        position: absolute;
+        top: 20rem;
+        display: none; 
+    }
+    .picture{
+        
+        position:absolute ;
+        left: 5rem;
+        top: 40rem;
+        display: none;
+        
+    }
+    .java{
+        background-color:#25262a;
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6rem;
+        position: absolute;
+        top: 22rem;
+        left: 20rem;
+    }
+    
+    .python{
+        background-color: #25262a;
+        height: 5rem;
+        width: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3rem;
+        position: absolute;
+        top: 10rem;
+        left: 24rem;
+    }
+    #meta{
+        background-color:#25262a;
+        height: 7rem;
+        width: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4rem;
+        position: relative;
+        top: 20rem;
+        right: 30rem;
+    }
+    .dot{
+        color: #64f4ab;
+        font-size: 6rem;
+        position: absolute;
+        top: 15rem;
+        left: 28rem;
+    }
+    .dot2{
+        background-color: #25262a;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        left: 27rem;
+        bottom: 30rem;
+        
+    } 
+ 
+}
+@media only screen and (min-width: 600px) {
+  
+    .parent{
+        height: 100vh;
+        width: 100vw;
+        background-color: #2d2e32;
+        overflow-x: hidden;
+    
+    }
+    nav{
+        background-color: #2d2e32;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .7rem 
+        
+    }
+    nav>h1{
+        flex-grow: 1;
+    }
+    strong{
+        color: #e4e4e4;
+        font-size: 1.5rem;
+    }
+    h1{
+        color: #9d9d9e;
+        font-size: 1.5rem;
+        margin-right: 11rem;
+
+    }
+    nav>ul{
+        display: flex;
+        gap: .5rem;
+        list-style-type: none;
+        display: none;
+    }
+    nav>ul>li{
+        color: #e4e4e4;
+    }
+    nav>ul>li:hover{
+        color: #64f4ab;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    
+    
+    .icons>p{
+        color: #9d9d9e;
+        cursor: pointer;
+        font-size: 1.2rem;
+    }
+    .mail{
+        background-color: #333438;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+    }
+    .container{
+        display: block;
+        background-color: #2d2e32;
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    .hero{
+        background-color: #2d2e32;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        
+    
+    }
+     .button {
+        background-color: #64f4ab;
+        font-size: 1rem;
+        padding: .5rem;
+        width: 40%;
+        margin-right: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border-radius: .2rem;
+    }
+    .hero>h2{
+        font-size: 2rem;
+        margin-left: 11rem;
+        color: #e4e4e4;
+        width: 18rem;
+    }
+    .hero>p{
+
+        margin-left: 8rem;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        width: 23rem;
+        margin-bottom: 5rem;
+        color: #9d9d9e;
+        text-align: center;
+    }
+    .hero>a{
+        margin-left:6rem;
+        color: #64f4ab;
+        font-size: 1.3rem;
+        
+    }
+    .numbers{
+        background-color: #2d2e32;
+        display: flex;
+        width: 27rem;
+        margin-left: 7rem;
+        margin-top: 10rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    .numbers>h4{
+        color: #e4e4e4;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;  
+    }
+    .numbers>p{
+        color: #9d9d9e;
+        font-size: 1rem;
+    }
+    .card{
+        
+        background-image: repeating-linear-gradient(to top left,#28292d 15%,#29282d 1%,#292a2e 30%);
+        border-radius: 30rem;
+        height: 20rem;
+        width: 20rem;
+        position: relative;
+        left: 3rem;
+        top: 3rem;
+        display: none;
+    }
+    .card2{
+        background-image: radial-gradient(black,#3e3f42 );
+        border-radius: 7rem;
+        height: 4rem;
+        width: 4rem;
+        right: 22rem;
+        position: absolute;
+        top: 20rem;
+        display: none; 
+    }
+    .picture{
+        
+        position:absolute ;
+        left: 5rem;
+        top: 40rem;
+        display: none;
+        
+    }
+    .java{
+        background-color:#25262a;
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6rem;
+        position: absolute;
+        top: 22rem;
+        left: 20rem;
+    }
+    
+    .python{
+        background-color: #25262a;
+        height: 5rem;
+        width: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3rem;
+        position: absolute;
+        top: 10rem;
+        left: 24rem;
+    }
+    #meta{
+        background-color:#25262a;
+        height: 7rem;
+        width: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4rem;
+        position: relative;
+        top: 20rem;
+        right: 30rem;
+    }
+    .dot{
+        color: #64f4ab;
+        font-size: 6rem;
+        position: absolute;
+        top: 15rem;
+        left: 28rem;
+    }
+    .dot2{
+        background-color: #25262a;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        left: 27rem;
+        bottom: 30rem;
+        
+    } 
+   
+}
+@media only screen and (min-width: 768px) {
+ 
+    .parent{
+        height: 100vh;
+        width: 100vw;
+        background-color: #2d2e32;
+        overflow-x: hidden;
+    
+    }
+    nav{
+        background-color: #2d2e32;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    strong{
+        color: #e4e4e4;
+        font-size: 1.5rem;
+        
+
+    }
+    h1{
+        color: #9d9d9e;
+        font-size: 1.5rem;
+        margin-right: 3rem;
+    }
+    nav>ul{
+        display: flex;
+        gap: 1.1rem;
+        list-style-type: none;
+        margin-right: 2rem;
+    }
+    nav>ul>li{
+        color: #e4e4e4;
+        font-size: 1.3rem;
+    
+    }
+    nav>ul>li:hover{
+        color: #64f4ab;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
+    
+    
+    .icons>p{
+        color: #9d9d9e;
+        cursor: pointer;
+    }
+    .mail{
+        background-color: #333438;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+    }
+    .container{
+        
+        background-color: #2d2e32;
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    .hero{
+        background-color: #2d2e32;
+        width: 50%;
+        
+    
+    }
+    .button{
+        background-color: #64f4ab;
+        font-size: 1.3rem;
+        padding: .5rem;
+        width: 70%;
+        margin-left: 8rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        border-radius: .2rem;
+    }
+    .hero>h2{
+        font-size: 2.5rem;
+        margin-left: 13rem;
+        color: #e4e4e4;
+        width: 22rem;
+    }
+    .hero>p{
+        margin-left: 16rem;
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        width: 25rem;
+        margin-bottom: 5rem;
+        color: #9d9d9e;
+        text-align: start;
+    }
+    .hero>a{
+        margin-right: 6rem;
+        color: #64f4ab;
+        font-size: 1.5rem;
+        
+    }
+    .numbers{
+        background-color: #2d2e32;
+        display: flex;
+        width: 29rem;
+        margin-left: 6rem;
+        margin-top: 10rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    .numbers>h4{
+        color: #e4e4e4;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.7rem;  
+    }
+    .numbers>p{
+        color: #9d9d9e;
+        font-size: 1rem;
+    }
+    
+    .card{
+        
+        background-image: repeating-linear-gradient(to top left,#28292d 15%,#29282d 1%,#292a2e 30%);
+        border-radius: 30rem;
+        height: 20rem;
+        width: 20rem;
+        position:relative;
+        left: 13rem;
+        display: block;
+        left: 8rem;
+    }
+    .card2{
+        background-image: radial-gradient(black,#3e3f42 );
+        border-radius: 7rem;
+        height: 4rem;
+        width: 4rem;
+        right: 30rem;
+        position: absolute;
+        top: 19rem;
+        left: -25rem;
+        display: block; 
+    }
+    
+    .picture{
+        position:relative ;
+        left: -19rem; 
+        display: flex;
+        top: 4rem;
+        
+    }
+    .java{
+        background-color:#25262a;
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6rem;
+        position: absolute;
+        top: 22rem;
+        left: 20rem;
+        
+    }
+    
+    .python{
+        background-color: #25262a;
+        height: 5rem;
+        width: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3rem;
+        position: absolute;
+        top: 10rem;
+        left: 25rem;
+        
+    }
+    #meta{
+        background-color:#25262a;
+        height: 7rem;
+        width: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4rem;
+        position: relative;
+        bottom: 20rem;
+        
+    }
+    .dot{
+        color: #64f4ab;
+        font-size: 6rem;
+        position: absolute;
+        top: 15rem;
+        left: 28rem;
+    }
+    .dot2{
+        background-color: #25262a;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        left:28rem;
+        bottom: 30rem;
+        
+        
+    }  
+}
+@media only screen and (min-width: 992px) {
+    .parent{
+        height: 100vh;
+        width: 100vw;
+        background-color: #2d2e32;
+        overflow-x: hidden;
+    
+    }
+    nav{
+        background-color: #2d2e32;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: rem; 
+    }
+    nav>h1{
+        flex-grow: 1;
+    }
+    strong{
+        color: #e4e4e4;
+        font-size: 1.7rem;
+
+    }
+    h1{
+        color: #9d9d9e;
+        font-size: 1.7rem;
+        margin-right: 5rem;
+    }
+    nav>ul{
+        display: flex;
+        gap: 3rem;
+        list-style-type: none;
+        font-size: 1.2rem;
+        margin-right: 2rem;
+    }
+    nav>ul>li{
+        color: #e4e4e4;
+        margin: 0rem;
+    }
+    nav>ul>li:hover{
+        color: #64f4ab;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 0;
+        
+    }
+    
+    
+    .icons>p{
+        color: #9d9d9e;
+        cursor: pointer;
+    }
+    .mail{
+        background-color: #333438;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+    }
+    .container{
+        display: block;
+        background-color: #2d2e32;
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    .hero{
+        background-color: #2d2e32;
+    
+        
+    
+    }
+    .button{
+        background-color: #64f4ab;
+        font-size: 1.5rem;
+        padding: .5rem;
+        margin-left: 7rem;
+        width: 60%;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        border-radius: .2rem;
+    }
+    .hero>h2{
+        font-size: 2.7rem;
+        color: #e4e4e4;
+        width: 22rem;
+        margin-left: 9rem;
+        
+    }
+    .hero>p{
+        margin-left: 22rem;
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+        width: 35rem;
+        margin-bottom: 5rem;
+        color: #9d9d9e;
+    }
+    .hero>a{
+        margin-right: 10rem;
+        color: #64f4ab;
+        font-size: 1.5rem;
+        
+    }
+    .numbers{
+        background-color: #2d2e32;
+        display: flex;
+        width: 32rem;
+        margin-left: 3rem;
+        margin-top: 10rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    .numbers>h4{
+        color: #e4e4e4;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;  
+    }
+    .numbers>p{
+        color: #9d9d9e;
+        font-size: 1.2rem;
+    }
+    .card{
+        
+        background-image: repeating-linear-gradient(to top left,#28292d 15%,#29282d 1%,#292a2e 30%);
+        border-radius: 30rem;
+        height: 20rem;
+        width: 20rem;
+        position: relative;
+        left: 19rem;
+        
+    }
+    .card2{
+        background-image: radial-gradient(black,#3e3f42 );
+        border-radius: 7rem;
+        height: 4rem;
+        width: 4rem;
+        right: 40rem;
+        top: 16rem;
+        left: -15rem;
+         
+    }
+    .picture{
+        
+        position:absolute ;
+        left: 22rem;
+        top: 44rem;
+    
+        
+    }
+    .java{
+        background-color:#25262a;
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6rem;
+        position: absolute;
+        top: 22rem;
+        left: 20rem;
+    }
+    
+    .python{
+        background-color: #25262a;
+        height: 5rem;
+        width: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3rem;
+        position: absolute;
+        top: 10rem;
+        left: 24rem;
+    }
+    #meta{
+        background-color:#25262a;
+        height: 7rem;
+        width: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4rem;
+        position: relative;
+        top: 20rem;
+        right: 30rem;
+    }
+    .dot{
+        color: #64f4ab;
+        font-size: 6rem;
+        position: absolute;
+        top: 15rem;
+        left: 28rem;
+    }
+    .dot2{
+        background-color: #25262a;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        left: 27rem;
+        bottom: 30rem;
+        
+    }  
+}
+@media only screen and (min-width: 1200px) {
+    .parent{
+        height: 100vh;
+        width: 100vw;
+        background-color: #2d2e32;
+        overflow-x: hidden;
+    
+    }
+    nav{
+        background-color: #2d2e32;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        
+        
+    }
+    nav>h1{
+        flex-grow: 1;
+    }
+    strong{
+        color: #e4e4e4;
+    }
+    h1{
+        color: #9d9d9e;
+    }
+    nav>ul{
+        display: flex;
+        flex-grow: 1;
+        gap: 4rem;
+        list-style-type: none;
+        font-size: 1.4rem;
+    }
+    nav>ul>li{
+        color: #e4e4e4;
+    }
+    nav>ul>li:hover{
+        color: #64f4ab;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1.3rem;
+    }
+    
+    
+    .icons>p{
+        color: #9d9d9e;
+        cursor: pointer;
+    }
+    .mail{
+        background-color: #333438;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+    }
+    .container{
+        display: flex;
+        background-color: #2d2e32;
+        
+        
+    }
+    .hero{
+        background-color: #2d2e32;
+        padding: 2rem;
+
+    
+    }
+    .button{
+        background-color: #64f4ab;
+        font-size: 1.7rem;
+        padding: .5rem;
+        width: 50%;
+        margin-top: 22rem;
+        margin-bottom: 2rem;
+        border-radius: .2rem;
+        margin-right: 6rem;
+    }
+    .hero>h2{
+        font-size: 2.5rem;
+        color: #e4e4e4;
+        margin-right: 5rem;
+    }
+    .hero>p{
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+        width: 28rem;
+        margin-bottom: 5rem;
+        color: #9d9d9e;
+        margin-right: 12rem;
+    }
+    .hero>a{
+        color: #64f4ab;
+        margin-right: 15rem;
+        
+    }
+    .numbers{
+        background-color: #2d2e32;
+        display: flex;
+        width: 30rem;
+        margin-right: 11rem;
+        margin-top: 9rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    .numbers>h4{
+        color: #e4e4e4;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;  
+    }
+    .numbers>p{
+        color: #9d9d9e;
+        font-size: 1rem;
+        
+    }
+    .big{
+        display: flex;
+        position:absolute;
+        left: 38rem;
+        
+    }
+    .card{
+        
+        background-image: repeating-linear-gradient(to top left,#28292d 15%,#29282d 1%,#292a2e 30%);
+        margin: 0rem;
+        padding: 5rem;
+        border-radius: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20rem;
+        width: 20rem;
+        position: relative;
+        left: 2rem;
+        top: 5rem;
+    }
+    .card2{
+        background-image: radial-gradient(black,#3e3f42 );
+        margin: 0rem;
+        padding: 5rem;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+        position: relative;
+        left: -33rem;
+        top: 23rem;
+        
+    }
+    .picture{
+        display: flex;
+        position: relative;
+        left: -39rem;
+        top: 5rem;
+    }
+    .java{
+        background-color:#25262a;
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6rem;
+        position: absolute;
+        top: 22rem;
+        left: 22rem;
+    }
+    
+    .python{
+        background-color: #25262a;
+        height: 5rem;
+        width: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3rem;
+        position: absolute;
+        top: 10rem;
+        left: 25rem;
+    }
+    #meta{
+        background-color:#25262a;
+        height: 7rem;
+        width: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4rem;
+        position: relative;
+        top: 22rem;
+        right: 29rem;
+    }
+    .dot{
+        color: #64f4ab;
+        font-size: 6rem;
+        position: absolute;
+        top: 15rem;
+        left: 30rem;
+    }
+    .dot2{
+        background-color: #25262a;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        left: 27rem;
+        bottom: 32rem;
+        
+}
+}
+@media only screen and (min-width: 1440px) {
+    .parent{
+        height: 100vh;
+        width: 100vw;
+        background-color: #2d2e32;
+        overflow-x: hidden;
+    
+    }
+    nav{
+        background-color: #2d2e32;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        
+        
+    }
+    nav>h1{
+        flex-grow: 1;
+    }
+    strong{
+        color: #e4e4e4;
+        font-size: 2rem;
+    }
+    h1{
+        color: #9d9d9e;
+        font-size: 2rem;
+    }
+    nav>ul{
+        display: flex;
+        flex-grow: 1;
+        gap: 5rem;
+        list-style-type: none;
+        font-size: 1.4rem;
+    }
+    nav>ul>li{
+        color: #e4e4e4;
+        font-size: 1.4rem;
+    }
+    nav>ul>li:hover{
+        color: #64f4ab;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    
+    
+    .icons>p{
+        color: #9d9d9e;
+        cursor: pointer;
+        font-size: 1.4rem;
+    }
+    .mail{
+        background-color: #333438;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+    }
+    .mail:hover{
+        cursor: pointer;
+        background-color:#64f4ab;
+    }
+    .container{
+        display: flex;
+        background-color: #2d2e32;
+        
+        
+    }
+    .hero{
+        background-color: #2d2e32;
+        padding: 2rem;
+
+    
+    }
+    .button{
+        background-color: #64f4ab;
+        font-size: 1.7rem;
+        padding: .5rem;
+        width: 40%;
+        margin-top: 20rem;
+        margin-bottom: 2rem;
+        border-radius: .2rem;
+        margin-right: 15rem;
+    }
+    .hero>h2{
+        font-size: 2.5rem;
+        color: #e4e4e4;
+        margin-right: 13rem;
+    }
+    .hero>p{
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+        width: 28rem;
+        margin-bottom: 5rem;
+        color: #9d9d9e;
+        margin-right: 20rem;
+    }
+    .hero>a{
+        color: #64f4ab;
+        margin-right: 23rem;
+        
+    }
+    .numbers{
+        background-color: #2d2e32;
+        display: flex;
+        width: 30rem;
+        /* margin-left: rem; */
+        margin-top: 9rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-right: 18rem;
+    }
+    .numbers>h4{
+        color: #e4e4e4;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;  
+    }
+    .numbers>p{
+        color: #9d9d9e;
+        font-size: 1rem;
+        
+    }
+    .big{
+        display: flex;
+        position:absolute;
+        left: 38rem;
+        
+    }
+    .card{
+        
+        background-image: repeating-linear-gradient(to top left,#28292d 15%,#29282d 1%,#292a2e 30%);
+        margin: 0rem;
+        padding: 5rem;
+        border-radius: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25rem;
+        width: 25rem;
+        position: relative;
+        left: 11rem;
+        top: 4rem;
+    }
+    .card2{
+        background-image: radial-gradient(black,#3e3f42 );
+        margin: 0rem;
+        padding: 5rem;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+        position: absolute;
+        left: -27rem;
+        top: 24rem;
+        
+    }
+    .picture{
+        display: flex;
+        position: relative;
+        left: -20rem;
+        top: 6rem;
+    }
+    .java{
+        background-color:#25262a;
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6rem;
+        position: absolute;
+        top: 22rem;
+        left: 22rem;
+    }
+    
+    .python{
+        background-color: #25262a;
+        height: 5rem;
+        width: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3rem;
+        position: absolute;
+        top: 10rem;
+        left: 28rem;
+    }
+    #meta{
+        background-color:#25262a;
+        height: 7rem;
+        width: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4rem;
+        position: relative;
+        top: 22rem;
+        right: 29rem;
+    }
+    .dot{
+        color: #64f4ab;
+        font-size: 6rem;
+        position: absolute;
+        top: 15rem;
+        left: 31rem;
+    }
+    .dot2{
+        background-color: #25262a;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        left: 30rem;
+        bottom: 32rem;
+        
+}
+}
